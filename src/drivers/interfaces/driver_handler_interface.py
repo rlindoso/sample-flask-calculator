@@ -5,3 +5,6 @@ class DriverHandlerInterface(ABC):
 
     @abstractmethod
     def standard_deviation(self, numbers: List[float]) -> float: pass
+
+    @abstractmethod
+    def variation(self, numbers: List[float]) -> float: pass
